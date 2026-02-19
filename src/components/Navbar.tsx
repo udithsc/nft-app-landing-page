@@ -39,7 +39,7 @@ const Navbar = () => {
             <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#6366f1" />
+                  <stop offset="0%" stopColor="#22c55e" />
                   <stop offset="100%" stopColor="#06b6d4" />
                 </linearGradient>
               </defs>
@@ -49,7 +49,7 @@ const Navbar = () => {
             </svg>
           </div>
           <span className="nft-navbar__logo-text">
-            Pro<span className="nft-navbar__logo-accent">Nef</span>
+            UDT <span className="nft-navbar__logo-accent">NFT</span>
           </span>
         </a>
 

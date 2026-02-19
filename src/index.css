@@ -6,8 +6,8 @@
 
 /* ─── CSS Custom Properties ─────────────────────────────────────────────── */
 :root {
-  --nft-primary: #6366f1;
-  --nft-primary-2: #818cf8;
+  --nft-primary: #22c55e;
+  --nft-primary-2: #4ade80;
   --nft-cyan: #06b6d4;
   --nft-dark: #0a0a14;
   --nft-dark-2: #12121f;
@@ -53,7 +53,7 @@ body {
 
 .banner02 {
   background: url('./assets/banner02.svg');
-  background-color: #0b65c6;
+  background-color: #22c55e;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

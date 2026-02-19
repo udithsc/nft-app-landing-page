@@ -9,7 +9,7 @@ const App = () => {
       <section id="home">
         <SectionWrapper
           title="You own store of Nifty NFTs. Start Selling & Growing"
-          description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+          description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using UDT NFT Marketplace."
           showBtn
           mockupImg={assets.homeHero}
           banner="banner"
@@ -19,7 +19,7 @@ const App = () => {
       <section id="features">
         <SectionWrapper
           title="Smart User Interface Marketplace"
-          description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+          description="Experience a buttery UI of UDT NFT Marketplace. Smooth constant colors of a fluent UI design."
           mockupImg={assets.homeCards}
           reverse
         />
@@ -31,7 +31,7 @@ const App = () => {
 
       <SectionWrapper
         title="Deployment"
-        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
+        description="UDT NFT is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
         mockupImg={assets.feature}
         reverse
       />
@@ -54,7 +54,7 @@ const App = () => {
               <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="footerLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#6366f1" />
+                    <stop offset="0%" stopColor="#22c55e" />
                     <stop offset="100%" stopColor="#06b6d4" />
                   </linearGradient>
                 </defs>
@@ -64,7 +64,7 @@ const App = () => {
               </svg>
             </div>
             <span className="nft-footer__logo-text">
-              Pro<span className="nft-footer__logo-accent">Nef</span>
+              UDT <span className="nft-footer__logo-accent">NFT</span>
             </span>
           </div>
           <p className="nft-footer__tagline">The next-generation NFT marketplace, in your pocket.</p>
@@ -75,7 +75,7 @@ const App = () => {
             <a href="#download" className="nft-footer__link">Download</a>
             <a href="https://github.com/udithsc/nft_marketplace_app" target="_blank" rel="noreferrer" className="nft-footer__link">GitHub</a>
           </div>
-          <p className="nft-footer__copy">© {new Date().getFullYear()} ProNef. All rights reserved.</p>
+          <p className="nft-footer__copy">© {new Date().getFullYear()} UDT NFT. All rights reserved.</p>
         </div>
       </footer>
     </>
