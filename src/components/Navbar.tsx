@@ -5,7 +5,7 @@ const navLinks = [
   { label: 'Features', href: '#features' },
   { label: 'Technologies', href: '#technologies' },
   { label: 'Download', href: '#download' },
-  { label: 'GitHub', href: 'https://github.com/udithsc/nft_marketplace_app', external: true },
+  { label: 'GitHub', href: 'https://github.com/udithsc/nft-marketplace-app', external: true },
 ];
 
 const Navbar = () => {

@@ -14,7 +14,17 @@ const Download = () => {
           <p className={`${styles.pText}`}>
             Get the full source code on GitHub
           </p>
-          <button className={styles.btnPrimary}> Source Code</button>
+          <button
+            className={styles.btnPrimary}
+            onClick={() =>
+              window.open(
+                'https://github.com/udithsc/nft-marketplace-app',
+                '_blank'
+              )
+            }
+          >
+            Source Code
+          </button>
           <div className={styles.flexCenter}>
             <img
               src={assets.scene}

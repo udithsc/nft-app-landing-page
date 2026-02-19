@@ -73,7 +73,7 @@ const App = () => {
             <a href="#features" className="nft-footer__link">Features</a>
             <a href="#technologies" className="nft-footer__link">Technologies</a>
             <a href="#download" className="nft-footer__link">Download</a>
-            <a href="https://github.com/udithsc/nft_marketplace_app" target="_blank" rel="noreferrer" className="nft-footer__link">GitHub</a>
+            <a href="https://github.com/udithsc/nft-marketplace-app" target="_blank" rel="noreferrer" className="nft-footer__link">GitHub</a>
           </div>
           <p className="nft-footer__copy">© {new Date().getFullYear()} UDT NFT. All rights reserved.</p>
         </div>
